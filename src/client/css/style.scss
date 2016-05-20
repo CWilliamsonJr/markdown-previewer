@@ -1,0 +1,53 @@
+
+$height:80vh;
+$width:48vw;
+$headerText: white;
+$headerColor: black;
+
+.navbar{
+  background-color: $headerColor;
+  .h2{
+    color: white;
+  }
+}
+
+#box_txt{
+  height: $height;
+  width: $width;
+
+  background-color: black;
+}
+.markdown_display{
+  height: $height;
+  width: $width;
+  background-color: black;
+  padding-left: 2px;
+
+  overflow: auto;
+}
+
+body{
+  background-color: gray;
+  color: white;
+}
+
+.box_lbl{
+  width: $width;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 51px;
+  background-color: $headerColor;
+  color:$headerText;
+}
